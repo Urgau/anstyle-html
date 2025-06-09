@@ -1,0 +1,14 @@
+[package]
+name = "anstyle-html"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anstyle = { version = "1.0.0" }
+anstyle-parse = { version = "0.2.6" }
+anstyle-lossy = { version = "1.0.0" }
+html-escape = "0.2.13"
+unicode-width = "0.2.0"
+
+[[bin]]
+name = "to_html"
