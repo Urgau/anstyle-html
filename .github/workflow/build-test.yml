@@ -1,0 +1,18 @@
+name: Build and Test
+
+on:
+  push:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Build with locked Cargo.lock
+        run: cargo build --locked
+
+      - name: Test with locked Cargo.lock
+        run: cargo test --locked
