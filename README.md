@@ -1,3 +1,6 @@
+> [!WARNING]
+> The HTML rendering has been merged in [anstyle-svg](https://github.com/rust-cli/anstyle/tree/main/crates/anstyle-svg) in [anstyle#258](https://github.com/rust-cli/anstyle/pull/258). This fork is unmaintained.
+
 # anstyle-html
 
 > Convert ANSI escape codes to HTML
